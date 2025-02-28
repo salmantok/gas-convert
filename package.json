@@ -21,7 +21,7 @@
     "url": "git+https://github.com/salmantok/gas-convert.git"
   },
   "homepage": "https://salmantok.github.io/gas-convert",
-  "devDependencies": {
+  "dependencies": {
     "rollup": "^4.34.8"
   }
 }
