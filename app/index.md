@@ -86,13 +86,13 @@ export function logMessage(message) {
 
 ```js
 // index.js
-import { sayHello } from "./utils.js";
-import { logMessage } from "./logger.js";
+import { sayHello } from './utils.js';
+import { logMessage } from './logger.js';
 
-console.log("Program dimulai");
-sayHello("GAS");
-logMessage("Ini adalah pesan log");
-console.log("Program selesai");
+console.log('Program dimulai');
+sayHello('GAS');
+logMessage('Ini adalah pesan log');
+console.log('Program selesai');
 ```
 
 #### Cara ke 2.
@@ -113,13 +113,13 @@ export function logMessage(message) {
 
 ```js
 // index.js
-import { sayHello } from "./utils.js";
-import { logMessage } from "./logger.js";
+import { sayHello } from './utils.js';
+import { logMessage } from './logger.js';
 
-console.log("Program dimulai");
-sayHello("GAS");
-logMessage("Ini adalah pesan log");
-console.log("Program selesai");
+console.log('Program dimulai');
+sayHello('GAS');
+logMessage('Ini adalah pesan log');
+console.log('Program selesai');
 
 // Tambahkan fungsi ke globalThis agar bisa diakses di mana saja
 globalThis.sayHello = sayHello;
@@ -144,23 +144,23 @@ export function logMessage(message) {
 
 ```js
 // index.js
-import { sayHello } from "./utils.js";
-import { logMessage } from "./logger.js";
+import { sayHello } from './utils.js';
+import { logMessage } from './logger.js';
 
-console.log("Program dimulai");
+console.log('Program dimulai');
 
 function doPost(e) {
-  console.log("App Started");
+  console.log('App Started');
 
   // Daftarkan fungsi ke globalThis saat doPost dipanggil
   globalThis.sayHello = sayHello;
   globalThis.logMessage = logMessage;
 
   // Contoh pemanggilan fungsi setelah terdaftar di globalThis
-  sayHello("GAS");
-  logMessage("Ini adalah pesan log");
+  sayHello('GAS');
+  logMessage('Ini adalah pesan log');
 
-  console.log("Program selesai");
+  console.log('Program selesai');
 }
 globalThis.doPost = doPost;
 ```
@@ -185,8 +185,8 @@ globalThis.doPost = doPost;
 - Contoh:
 
 ```js
-sayHello("Halo GAS"); // Bisa dipanggil di Google Apps Script
-logMessage("Pesan baru");
+sayHello('Halo GAS'); // Bisa dipanggil di Google Apps Script
+logMessage('Pesan baru');
 ```
 
 - **Kelebihan:** Bisa digunakan di luar file.
