@@ -185,7 +185,7 @@ globalThis.doPost = doPost;
 - Contoh:
 
 ```js
-sayHello('Halo GAS'); // Bisa dipanggil di Google Apps Script
+sayHello('GAS'); // Bisa dipanggil di Google Apps Script
 logMessage('Pesan baru');
 ```
 
