@@ -1,0 +1,5 @@
+config-lock.json
+pnpm-lock.yaml
+node_modules
+dist
+*.tgz

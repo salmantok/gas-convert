@@ -1,0 +1,7 @@
+{
+  "outputDirectory": ".",
+  "highlight": {
+    "highlightTheme": true,
+    "theme": "tomorrow-night-bright"
+  }
+}
