@@ -24,6 +24,7 @@
   },
   "homepage": "https://salmantok.github.io/gas-convert",
   "dependencies": {
+    "chalk": "^5.4.1",
     "rollup": "^4.34.8"
   }
 }
