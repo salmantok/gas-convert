@@ -6,7 +6,7 @@
 npm install -g gas-convert
 ```
 
-<p>Sebelum menggunakan pastikan <a href="https://github.com/google/clasp#readme"class="link">@google/clasp </a>sudah terinstall di sistem operasi Anda, jika belum terinstall maka install terlebih dahulu.</p>
+<p>Sebelum menggunakan pastikan <a href="https://developers.google.com/apps-script/guides/clasp"class="link">@google/clasp </a>sudah terinstall di sistem operasi Anda, jika belum terinstall maka install terlebih dahulu.</p>
 
 ```bash
 npm install -g @google/clasp
